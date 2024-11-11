@@ -30,7 +30,7 @@ jobs:
           command: |
             cd bankchurn-api 
             railway link a316c4fe-71a6-4778-807e-877ff203e48d 030c9fb4-81eb-4456-92e0-0d520054f9b7
-            railway up --detach
+            railway up --service=satisfied-vision -d
 
 
 tags_only: &tags_only
